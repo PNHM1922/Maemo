@@ -1,0 +1,1892 @@
+Package: ati85
+Version: 1.4.1-1
+Architecture: armel
+Maintainer: Marat Fayzullin <marat@komkon.org>, Andrew Zhilin <drew.zhilin@gmail.com>
+Installed-Size: 2059
+Depends: libatk1.0-0 (>= 1.24.0), libc6 (>= 2.5.0-1), libcairo2, libdbus-1-3 (>= 1.1.4), libdbus-glib-1-2 (>= 0.76), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.9), libgconf2-6 (>= 2.13.5), libglib2.0-0 (>= 2.20.0), libgtk2.0-0 (>= 2:2.12.9-0osso1), libhildon1, libhildonfm2 (>= 1:2.21+0m5), libosso-gnomevfs2-0, libosso1 (>= 2.21), libpango1.0-0, libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.9.15~test5), zlib1g (>= 1:1.2.1)
+Priority: 0
+Section: utils
+Filename: pool/non-free/a/ati85/ati85_1.4.1-1_armel.deb
+Size: 1938462
+SHA256: 127d471297b1837464ac1044108602ff4998fc047db91742454543794451a5d3
+SHA1: e72940496cdda73d9e44df53b6fb1feec176c971
+MD5sum: 94233aa1dd3d4d87da1521232b5f479e
+Description: TI programmable calculator emulator
+ AlmostTI (ATI85) will emulate TI73, TI82, TI83, TI83+,
+ TI83+ Silver Edition, TI85, and TI86 programmable
+ calculators from Texas Instruments.
+Maemo-Display-Name: AlmostTI Graphing Calc Emulator
+Maemo-Icon-26: 
+ iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgI
+ fAhkiAAAAAlwSFlzAAAHjQAAB40BBo7frwAAABl0RVh0U29mdHdhcmUAd3d3
+ Lmlua3NjYXBlLm9yZ5vuPBoAAAUOSURBVGiB7ZlfSFtXHMc/908So0ajjZi0
+ Uv/UmMGqgw5aWCuFwSgdgz6V9amDwhiFjm0PHQWxIZYy2F72MGjfhD1VKhuD
+ 9qV7EdZNFHzYrFBE96dLkxTTmNibxOT+24NEcqPWq06t0s/b+Z3fvef7Pffe
+ c849RzBNk72MuNsCtsqeNyDbSbp582arpmkN2y2mHFmW5/v6+v5ZL09Y6xu4
+ cePGCcMwwsAJoFFVVQzD+J9lro4oijgcDoAUMCaKYqS/v39stdzVDAiRSOS7
+ YrF4OZFICIZhIIoikiQhCMI2S1/CNE10XafUtt/vN51O561wOHwFsAheYWBg
+ YOBqPB7/Op1OU1tbiyju7mdiGAaKouD1egkEAl9ev379m/J6i4FIJNKVTCan
+ 4vG4fODAgR0X+zKeP39OIBDQfD7fm+FweLoUt3RvJpO5EI1GZa/Xa+umwWAQ
+ h8NBfX09Pp8PgEAgQEtLC6IoEgqF8Hg8CILAoUOHlhoURVpbW0s9SigUIhQK
+ rfukvV4v0WhUzmQyF8rjllFIUZSzkiQhSdK64hsbG7l06RJDQ0M4HA4aGhp4
+ 8OABp0+fpr29naGhIS5evMjw8DDHjh0jkUhw6tQpkskkzc3NLC4u8ujRI86d
+ O8fk5CSzs7MvHSRKuhRFOQsMlOIW27lsNuh0OtcVD9DT08PDhw85evToirpo
+ NMqZM2d4/PgxkiTh9Xq5f/8+nZ2dPHnyhMOHD1NXV8fMzAzz8/NMTEygadq6
+ bTqdTnLZbLA8ZjGgqqpblm1NDXR1deHxeGhrayuNFHR3dwMwNTVFTU0NqVQK
+ XdcpFov09vYSi8Xw+/2Mjo7S1NRUGiptI8syqqq6LTFLhmnaUi8IAiMjI0xP
+ TxMKhchmsxiGgSzLjI2NEYvFSKVSaJpGLpdjamqKjo4ORkdHcTgcBINBBgcH
+ KRQKjIyMsLCwYN9FhUbLKPTh+fMFl9vtdLvdK657Fcjn8xTy+eLQ3buuUmz/
+ rYU0TUNRlN3Qsi6rLXtWGPD/M0PtjsjZOArw9GCrJWYxoCYSYuHZv4jziZ3U
+ ZZtCgx9VdFlee0tBj8d3ZrW2BSo1Wg0oyqtvoEKjvVlrFXztndQfbLGdn/xr
+ hkwsStvxd5AcS7O9rhb5e/y3zUoAtmDg5MdX6P3kM9v5P/V9wS+3v+Wj73/A
+ 09QMwIu5Z0Te8G9WArAf5wG76KqKVigsl0VJQixbRxmahqHrlvJ2sGkD98JX
+ uRe+ulx+9/NrvN//1XL5x2ufMjp4e2vqbLDnX6HXBnab1wZ2m9cGdpvXBnab
+ /WVAFIRX/rypUmPl79nOHABsgUqNln2hD3y+rL/eVe1NxzZ8Y2d1Da5az3J5
+ cSGDuphfkVfra0IQl/ZeTUNHSc7ZbiPtPUgiU8jdSyZrSjHrT32xmM/lhWp7
+ e9NWirksxVx23byNCK4kly+iFouWXrFuryvKeCaZxqiq3nQj24VRVU0mmSaj
+ KOPlcYuBBdO8s6gbxPWqnVVng7hexaJusGCad8rj1icAw08NYzoxlyZV7QMb
+ 5wTbjiSRqvaRmEvz1DCmMzBcXr3ijKxDEHokGHeDq6WuhiMNLpz5FwiauqO6
+ TdlB0e1hdr5AdCFLHgo6HP/TNP94qQGAI4LQLcIt4GQpVu+QqHZtbD9/s+QK
+ KhlVLw/9asDlWdOcrMxd85xYEAShE94D3gbeAjYzOG2FNPA7MDEDP5trCF3T
+ wF5hf62F9iL/AUCI+ddCBNykAAAAAElFTkSuQmCC
+
+Package: batterygraph
+Version: 0.3.2
+Architecture: armel
+Maintainer: Jeroen Witteman <BatteryGraph@JeroenWitteman.com>
+Installed-Size: 356
+Depends: libc6 (>= 2.5.0-1), libconic0, libdbus-1-3 (>= 1.1.4), libdbus-glib-1-2 (>= 0.76), libgcc1 (>= 1:4.2.1), libglib2.0-0 (>= 2.20.0), libhal1 (>= 0.5.10), libqt4-core (>= 4.5.3~git20090723), libqt4-dbus (>= 4.5.3~git20090723), libqt4-gui (>= 4.5.3~git20090723), libqt4-sql (>= 4.5.3~git20090723), libstdc++6 (>= 4.2.1)
+Priority: 0
+Section: utils
+Filename: pool/non-free/b/batterygraph/batterygraph_0.3.2_armel.deb
+Size: 89638
+SHA256: 8df30b25436e50d536eb76b6e6b3dfd1bf06fa1eff3a99517872cb4d0497cb9a
+SHA1: 5164b3af45fa3408605ba23cf220a13b2efa9a40
+MD5sum: 8719e0e20f7208a7df200f4dd4044060
+Description: Displays battery statistics into a graph
+ BatteryGraph will monitor the battery statistics and shows the results in a graph. Also monitors average cpu load and network connection.
+ .
+ New features since v0.3.1:
+ * Changed fullscreen toggle to double click and menu option
+ * Added option to configure drawing of charging bars
+ * Small layout changes for upcoming Qt4.6
+ .
+ New features since v0.3.0:
+ * option to export entire graph as png image
+ .
+ See http://maemo.JeroenWitteman.com/BatteryGraph for more information.
+ .
+ BatteryGraph is freeware, if you like this program you can donate any amount, see website for details. Thank you.
+Bugtracker: https://garage.maemo.org/tracker/?group_id=1351
+Maemo-Display-Name: BatteryGraph
+Maemo-Icon-26: 
+ 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
+ AABJRU5ErkJggg==
+
+Package: blessn900
+Version: 0.49-3
+Architecture: armel
+Maintainer: Almalence Inc <info@blessn900.com>
+Installed-Size: 1956
+Depends: gstreamer0.10-plugins-bad, libc6 (>= 2.5.0-1), libgcc1 (>= 1:4.2.1), libglib2.0-0 (>= 2.20.0), libgstreamer-plugins-base0.10-0 (>= 0.10.25), libgstreamer0.10-0 (>= 0.10.25), libjpeg62, libqt4-core (>= 4.7.0~git20100909), libqt4-dbus (>= 4.7.0~git20100909), libqt4-gui (>= 4.7.0~git20100909), libqt4-maemo5 (>= 4.7.0~git20100909), libqt4-webkit (>= 4.7.0~git20100909), libqt4-xml (>= 4.7.0~git20100909), libqtm-location, libstdc++6 (>= 4.2.1), libx11-6, fcam-drivers (>= 1.0.6-1)
+Homepage: http://blessn900.com
+Priority: 0
+Section: utils
+Filename: pool/non-free/b/blessn900/blessn900_0.49-3_armel.deb
+Size: 898704
+SHA256: e3b0b9298da9e713af80d3f2c40ef76e809a56a625ac909bb4cbe1f002984994
+SHA1: 19ba48e22a9e850bc32980d59da7f6b0d9b6ba00
+MD5sum: 55fd533d4fa0b49e87463c165414a696
+Description: Bless N900 gives you all you've been missing with the standard camera
+ non-blurry low-noise photos in low light,
+ high quality zoom not available on any mobile device before,
+ high dynamic range photos
+Bugtracker: https://bugs.maemo.org/enter_bug.cgi?product=blessn900
+Maemo-Display-Name: BlessN900
+Maemo-Icon-26: 
+ iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+ bWFnZVJlYWR5ccllPAAAAlJQTFRFAAAAbGxsampqICAgYWFhUlJSX19fZGRk////aGhoHBwcOjo6
+ ZmZmIyMjV1dXW1tbb29vUFBQWVlZPz8/Nzc3NTU1MDAwTk5OXV1dJSUlVFRUFBQURERES0tLGRkZ
+ PT09RkZGc3NzKCgoSEhIdXV1MzMzkJCQmpqaFxcXk5OTKioqCAgIsbGxeXl5Li4ufHx8nJycr6+v
+ QkJCd3d3mJiYcXFxjo6OgoKClpaWOjc3Dg4OjIyM6Ojou7u7gICAfn5+2dnZoqKinp6exMTEhoaG
+ +fn5RkRE29vbREZGbGxvtra21NTUhISEpqam0NDQqKioysrKYV9hkJOTpKSkFBEUiIiI6+vrzs7O
+ 7+/vFBcXtLS01tbW/Pz8YWFk5OTk0tTSRERCtLS2ztDO5OXl4uLibGps6urqoKCgk5SUIyAjQkI/
+ xsbGzMzMxsnG6+rqQj9Cv7++6OrqwcHBu7u+aGhqoqKgMzAz5eTiiIiKdXV3FBERnp6gMzU1vru7
+ +Pj4S0hIKCUlb29x0tLQYWRhrq6smpyau7m5k5OUbG9sycnJrq6u/f39QkRE3d3duba29PT0hoaI
+ YWRkREJEamxscXFzUlJQampsLioqlJSUvr6+MDMzNTMzFBcUc3Fv4OLioKKibG9vFxQXgoKA39/f
+ 7evrfH58YV9fHBcZtLG0X2Ffwb+/V1RXqKimxMTDXVtb8fPx0tLSamhomJaWGRcX3dvbTlBQDhER
+ 9vb2iIaGXVtdWVtbPz9CW11dubm3rqyu8fHxQj8/lJSWERERfH5+RkhGAAAA1pvEqgAAAMZ0Uk5T
+ ////////////////////////////////////////////////////////////////////////////
+ ////////////////////////////////////////////////////////////////////////////
+ ////////////////////////////////////////////////////////////////////////////
+ //////////////////////////////////8Axhrn6gAAA7JJREFUeNrs1eWTnEgYB2C0m2Zw18C4
+ z+7Mumv04u7n7u7u7u7u7q75v46BbDaZmavkruq+5VdF0dXw8PLSFGCH/mWwk+A/gUvu+GWiyTAn
+ CpizJt8qDvT/uvIgc0Lg0cm6KFjgk2ib7V3lWPDZwukTO4YLW7dOXJe7a9eu4wLmgStrV/cXi8VX
+ NzVrM3s37j8emJq/N3uNPqZFGfsNf/+7WjS3bfM/g28LReVFiJ+NEwTiBCNrj55zaB2v/eV9KA33
+ AvvndpTHhNAMxy4I6IFcw5RHLryl5v/0p2dksIHZTsDs2zTCDenft9jLGIZpopxh6v71zclPXzn1
+ 7iFZGNzAHA2YyStunIGULOpb1lSZdpRcnua1tXjfebUzLn9z4+6d8ewSmBqt3/PV4JYP5mndUt0z
+ oyMXw3ReYVNRNzh+H06JDr5eWj+1wCRgn3Lg6c3TVv29J7KXrgIot/jG27dPEyngqmkJEQhSguqG
+ KdJQbCoBhb6y6opDxrh5/ortPP/u63vcL0vV6g2spRAcBBCIsiyncJSSyBg8OFqfTovpHCFKYV7X
+ jfHt5EuuUTGeFfCWJgIKWoI8svjU3GNrVv0Rg5WDkIsqtzdckiQ8TjSQCE7XPREAypGV4R/2fDNe
+ rcZgd4FDiOgMLiGEAlPxLBEIgtl35wu2y5ZicLAMCUVLHRNV1SqAINSrMN6yLFFRQDplkBk+Bg9H
+ QC6tOBKW5F0sCo0Tp0HfECwxeuPlekhmGglYXYY4zZJLsXksSQR8PVBNQAGLdjiKr1TsGJxS4JYB
+ b2PYMqBZVgs8WYjOdwZ0u5KJwc/DyyAzjh0NZPUmY6YvLfhgyKx7vJ2sw7YjFXgewzqAaTVXLwJP
+ SJs5mrWTHs5d6oFnsQ4giBSd2yDQ+YwkSyLbSG5p3eEKfAnrAIhCCt3Km6bihjQCbCNpuvYcF3XX
+ dX4biErWDGlOyGq2AznSSMDHv8MI8CTWBbiPvgj0kfk0kS0bJuQyegJ2FtrAxroAga692ciM7k1z
+ 8lzehNDQDq/DYNQ0j3WDqAfLz+azkuh7usNBPUie0v39EHfc3uBxwQlVxxd1X4QgpSbrcFER4gLW
+ CxC0yDngZVnJ5iGEVqrFxuD5qILcAzg4cSvJBxOPONptHvocKoGWvN4LRYg4qjsIPfmjVy0FeuC2
+ /Gck/GtVTSow/RAReHcIYu1DrGF4tMK6stT3mpcK3OQjMGu1L/gOaIcCS7v2KGxUNNU3/dB0Diiq
+ pqknf7v/E/hbgAEAgKquhl5H9AYAAAAASUVORK5CYII=
+Maemo-Upgrade-Description: EXIF support, photo orientation support
+ Better Blurless and HDR performance
+ Executable optified
+ Usage of fcam-drivers
+
+Package: buddy
+Version: 0.2-4
+Architecture: armel
+Depends: libc6 (>= 2.5.0-1), libgcc1 (>= 1:4.2.1), libqt4-core (>= 4.6.2~git20100401), libqt4-gui (>= 4.6.2~git20100401), libqt4-sql (>= 4.6.2~git20100401), libstdc++6 (>= 4.2.1), libqt4-sql-sqlite, libqt4-core, libqt4-gui, libqt4-sql
+Installed-Size: 3044
+Maintainer: rama kurvakat <rkmaemo@gmx.com>
+Priority: 0
+Section: utils
+Filename: pool/non-free/b/buddy/buddy_0.2-4_armel.deb
+Size: 2483896
+SHA256: 4b06415de7750c4ce12cfa8aedb34d3989fa0a52fc1569a8ef3eedb0a6b824f8
+SHA1: 48ae37fd55b57dca9e8a6a06651242e154180f69
+MD5sum: 61c8252419efcb546d3dc4edd7647eac
+Description: Buddy - an budget/expense manager for maemo.
+ Buddy allows you to record your budgets and expenses in any period in
+ time and helps you analyse your expenditure and budgeting trend with a
+ number of visual graphs. It also allows for archiving of data and for
+ reading/generating csv format files containing your expense/budget
+ records. Data is protected with encryption.
+Bugtracker: https://bugs.maemo.org/enter_bug.cgi?product=buddy
+Maemo-Icon-26: 
+ iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAC4j
+ AAAuIwF4pT92AAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNn
+ VFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8ig
+ iAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXXPues852zzwfA
+ CAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz/SMBAPh+PDwrIsAH
+ vgABeNMLCADATZvAMByH/w/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCd
+ mCZTAKAEAGDLY2LjAFAtAGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7
+ AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7
+ AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkX
+ KxQ2YQJhmkAuwnmZGTKBNA/g88wAAKCRFRHgg/P9eM4Ors7ONo62Dl8t6r8G
+ /yJiYuP+5c+rcEAAAOF0ftH+LC+zGoA7BoBt/qIl7gRoXgugdfeLZrIPQLUA
+ oOnaV/Nw+H48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl/AV/1s+X48/Pf14L7i
+ JIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H/LcL//wd0yLESWK5WCoU41EScY5E
+ mozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA4vcA
+ APK7b8HUKAgDgGiD4c93/+8//UegJQCAZkmScQAAXkQkLlTKsz/HCAAARKCB
+ KrBBG/TBGCzABhzBBdzBC/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv
+ 1EAdNMBRaIaTcA4uwlW4Dj1wD/phCJ7BKLyBCQRByAgTYSHaiAFiilgjjggX
+ mYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyG
+ vEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+
+ Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXA
+ CTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIx
+ h1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI+ksqZs0SBoj
+ k8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+IoUspqShnlEOU0
+ 5QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgX
+ aPdpr+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+Y
+ TKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV
+ 81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q/pH5Z/YkG
+ WcNMw09DpFGgsV/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY/R27iz2q
+ qaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxr
+ qpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4/OBZ3nU9lT3acK
+ pxZNPTr1ri6qa6UbobtEd79up+6Ynr5egJ5Mb6feeb3n+hx9L/1U/W36p/VH
+ DFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYP
+ jGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x
+ 1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l
+ 1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6T
+ vZN9un2N/T0HDYfZDqsdWh1+c7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPj
+ thPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3IveRKdPVxXeF60vWd
+ m7Obwu2o26/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE/C5+VMGvfrH5PQ0+B
+ Z7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV/MN8C3yLfLT8Nv
+ nl+F30N/I/9k/3r/0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5
+ QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeG
+ P45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5qPNo3ujS6P8Yu
+ ZlnM1VidWElsSxw5LiquNm5svt/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxap
+ LhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi/RNtGI2ENcKh5O8kgq
+ TXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqoh
+ TZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdl
+ V2a/zYnKOZarnivN7cyzytuQN5zvn//tEsIS4ZK2pYZLVy0dWOa9rGo5sjxx
+ edsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWF
+ fevc1+1dT1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavE
+ uWTPZtJm6ebeLZ5bDpaql+aXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO/
+ PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7vPY07NXbW7z3/T7JvttV
+ AVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA/0HIw6217nU1R3SPVRS
+ j9Yr60cOxx++/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3/ceDTradox7rOEH0x92
+ HWcdL2pCmvKaRptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLT
+ k2fyz4ydlZ19fi753GDborZ752PO32oPb++6EHTh0kX/i+c7vDvOXPK4dPKy
+ 2+UTV7hXmq86X23qdOo8/pPTT8e7nLuarrlca7nuer21e2b36RueN87d9L15
+ 8Rb/1tWeOT3dvfN6b/fF9/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfV
+ P1v+3Njv3H9qwHeg89HcR/cGhYPP/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L9
+ 6fynQ89kzyaeF/6i/suuFxYvfvjV69fO0ZjRoZfyl5O/bXyl/erA6xmv28bC
+ xh6+yXgzMV70VvvtwXfcdx3vo98PT+R8IH8o/2j5sfVT0Kf7kxmTk/8EA5jz
+ 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
+ k4PCGghNjuHLux5GdOZJTPsHCvV3uSCxyYZDR44sb7vQtqHAWjCTEPK3sKOn
+ hs4PPoBpzpg+5zsBpnhHda66NX06i6rCEgiCFZTGQNXz8JbrWDbfg9D5BNik
+ C1AsMEGDpnhwugVajiCWUJDMZJDKSaiuKkI6F8e3fv4oMLMLi+/xIydr6B9K
+ o3W8bXm3euztcaHjraI6YV8ul1vy11GY/HWQpkB9YDzOy3mluNh/pN4xvW/X
+ vneeXfjpBTtNKGBMFQKjQ1ZiWDDLh66zPBIDOgxfFjJtgjEUcPLUTL24thrJ
+ CA2xyAptjIsOd44p9fPzxQ1rfTh2vBf9TTLGr+Qxa1EpZ/MYXGKAgscpVEFX
+ i6jrAQnHgKEINFkD6CkHzwoo8ZXD7ykd2rT4wd1tF5p21q6ph8xaQfQ8ilkv
+ 6IgFzriWCsSq0w6UFfAMRwxTpVlD00b649YSsbzHmIi1OMTCkRnVy98Q685R
+ RA3/avKyOnteYAZ0bxATvSOYMc+BuqpqvHygI50JcF/x1nsP638RrZRpmuib
+ aEdvqB20zoFROFiJHbBqmFk5H7Iqg2VZ/Nfub3y7JXniS4seCLj9fgpKTwZj
+ J3De5Zn5pMPtHxke6nOns2mSzcUYt8tN97ZO/mL7PQ/8ePai+l2/P/MaFi1Y
+ g7PnjmO6UDG7e/DY80KdumTGyhJr0gzCIdhw9vVcqsJc/YRHEH5ZVTEdK1ds
+ QMBaMnWCFBhEUiF4XQH8oXEPCA/ctWgTmCCDKn89WMKitrL2aVfc9Vrn6927
+ 35/o+/j6uWu//tj2e57b27hPUiHDZLRBk1Zx5/L1iI1lLOrMYcuEMXa3z7b2
+ f9bP3apF9BSyUg7uYtfFQLxiXbE4a95b//3GtiWL5ld1Do4oCyrX/rqmZtbx
+ i23tUyFHUdd3EhMMTUCDgaqpoHgabf1NCKZG4SkMIBoNQ7CIoNNU3/S6krh/
+ JotiW9Ul3h+Qln9sAzp6z0BW8ti58dPYsfAhdIy3eb6//ymv4UusPnzqj+VW
+ q3VAg4q7G1ZANK1gCK1bLZZWkdhaH9/5bZxqbkR/6DJ0UwfNUOAID1XWAMvf
+ Gso1o6ipTGYZbmqhoaB16Bxiahyiy+4IKv0z+SIVwxOXV53vaYWqaZg7bTE2
+ rvoE6mvnoiV2EpdGOyoZt8RLQlgo9BeXb1h9H3xWBwqdHqy8YzVcxSUAo8Ln
+ 9SKTT0HXVQA6tJyGuuIFqPLMxMRA9FqZ+SijKAoMxYDQLEqKKjG9dlaRYokW
+ esokxCcv12ejUXR1tqCssBrza1fg7cMHcbH9Ak62HF7qLjdh2ifFeHZs+enW
+ dxGfnABN0VMBZeXBWwiIg8eh8+/AUeJBdfk8ZEcp+KwlAHWtopAbhaoJwhAw
+ YJHN5PhkKhnQVM0fjAw4L4VbHuBro27RD+T59FyGUHfl89JJliUKw9KQJBlS
+ Xp4zmLy8paGWRVbJUmfbDuzwDFVFa/x1oZyUn0gkEkEpK43zHlE1YCCemcT7
+ XUdwR8VmmFoeuqndqAcpigJNM2BpHozBzb8aHK12+W3bh9Ltczpbj1RyLkYw
+ S3MMU52hHZUMrpIg/BuF0o7LvzuoGCXtx0+ceCTgKRxM5SO7x8xjm2p35P2S
+ axyAgbIt9gVaYvTlASVkdmXf04yzXJZVLJeoUP5UMBh6t6asoQN6dpymKVA0
+ BUIIOI6DJKnXAHVdJ4lkfOt7l/Y/KnzMXOpzqo6YrxmFfhEUZUA3U9CZHBiK
+ gDJUWBgKtkoOortQvBImyzovtAbiXv+IrMWLaqosfr6UR5pwyEEBVZiHUkhD
+ ZQxKpHWWmIKTl+RlwdEjy4r99id7Qke6rSn/6wl7sjmXyynj4+OpTDZteL2B
+ XgBZyjRN/ObQrhXvXvrFwXn3251qYRyKkISKFCiZBqsR0JoKHn5oCg85ISMT
+ zECLCjFWqmmms57dX3/0uwf+8Kd9SKXDVRI38YU41bchJyYDgtv0egp5kAIW
+ OsnC4DKQzQwIy0FhWTAqB3u+GOEmG642iufKLLNfvdh2Yc7AQN/i5557ccea
+ NWsH//IBU75S7q56efLc+AbGyRXqVAFFUTadUticppAMpbLh3oHRiNVRMFHi
+ qw+uLF58+f3+99oD5bNCXBGvSkYemq5BFC2Ddy3/zFM/2PXvz5RXLnTP9zbM
+ 7zl7sm4w3l+Wl2N2l9MjuD3VxSqTceUJOMo0jHxGj4xfiXbOn7PpP/V4Qdjv
+ 9/GqmmcdDlviuhhEeO70ZS9yAs50Xj47hzJVWuB4xWsPRIpKy8Ium/vqsy1f
+ TVOUmucKrdnykpqk19duqroERmc+8DdAUrIAoyUK/f5Esb98+MqA6MwmFFs0
+ EePmlq1lls66t7h/uKMskU3bWJrWi0oqhg70vtFHWGZU0XUYhqHoug7DmFIz
+ /zcAOd4JEVcll4wAAAAASUVORK5CYII=
+
+Package: capsule
+Version: 1.0.3-0
+Architecture: armel
+Depends: libc6 (>= 2.5.0-1), libdbus-1-3 (>= 1.1.4), libdbus-glib-1-2 (>= 0.76), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.2.1), libgconf2-6 (>= 2.13.5), libglib2.0-0 (>= 2.20.0), libice6 (>= 1:1.0.0), libpng12-0 (>= 1.2.13-4), libsm6, libstdc++6 (>= 4.2.1), libx11-6, libxext6, libxrender1, zlib1g (>= 1:1.2.1)
+Installed-Size: 34344
+Maintainer: SVS Innovations Ltd <info@svsi.fi>
+Priority: 0
+Section: utils
+Filename: pool/non-free/c/capsule/capsule_1.0.3-0_armel.deb
+Size: 16457916
+SHA256: 0f8d0c422c29bfeaed9c33805d2c561f65b38d2f9b999d1c3d408e3ec0ca0dd7
+SHA1: 3c328758c93155115f8a2e4c9e71cd87d369acbf
+MD5sum: 409843d0d9b586b00b1a9477eba6a9ed
+Description: Capsule 3d-engine demo
+ Capsule 3d-engine demo by SVS Innovations Ltd.
+Maemo-Icon-26: 
+ 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
+ TkSuQmCC
+
+Package: colem
+Version: 2.6.1-1
+Architecture: armel
+Maintainer: Marat Fayzullin <marat@komkon.org>
+Installed-Size: 256
+Depends: libatk1.0-0 (>= 1.24.0), libc6 (>= 2.5.0-1), libcairo2, libdbus-1-3 (>= 1.1.4), libdbus-glib-1-2 (>= 0.76), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.9), libgconf2-6 (>= 2.13.5), libglib2.0-0 (>= 2.20.0), libgtk2.0-0 (>= 2:2.12.9-0osso1), libhildon1 (>= 2.2.18), libhildonfm2 (>= 1:2.28+0m5), libhildonmime0 (>= 2.1.5), libosso-gnomevfs2-0, libosso1 (>= 2.23), libpango1.0-0, libpulse0 (>= 0.9.15~test5), zlib1g (>= 1:1.2.1)
+Priority: 0
+Section: utils
+Filename: pool/non-free/c/colem/colem_2.6.1-1_armel.deb
+Size: 107980
+SHA256: b3d3bd556a2aaaa7bedc6dbc66eaffd59a90fb681c572abaa2b7336bbf2b91c6
+SHA1: 51c04b3fa581ba0ac662a80bcc76e3a97729872a
+MD5sum: ce7924ea8bda14e17be32fdd7bce5155
+Description: ColecoVision emulator
+ ColEm will run software written for ColecoVision videogame console.
+Bugtracker: http://groups.google.com/group/emul8/
+Maemo-Display-Name: ColEm
+Maemo-Icon-26: 
+ iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgI
+ fAhkiAAAAAlwSFlzAAAHjQAAB40BBo7frwAAABl0RVh0U29mdHdhcmUAd3d3
+ Lmlua3NjYXBlLm9yZ5vuPBoAAAR2SURBVGiB7ZnPSxtpGMc/bxIdJyZpxhh/
+ 1Kw1XSGnYnpYXGtoQXrS40L36E1B/4r2T1hoD9563JaCWCg9LNS1FHpSFhZF
+ llIsQcF0zA/NTDLJzOzBZBpttP6IDYV8IDDvQ+Z5vt+Z533fmUTYts2PjKvZ
+ Ai5Ly0CzaRloNi0DzaZloNm0DDSbloFm4zkemJubi5mm+WepVHJfOrnHYwoh
+ ePfu3c+GYVw43/Xr1zOxWGzX7Xb//uTJk80jNY5/2bKse/v7+yOFQoG2tjYA
+ JiYm6OzsZG1tjY8fPzrxnp6eugXL5TLJZJJgMIjX60XTNIrF4kX1k0ql5Fgs
+ 1m9Z1j3gdAO2bSeKxSLhcJhMJoNpmgwMDABw48YN3r59y+3bt5Ekienp6boF
+ VVXl6dOnzjgWi2Ga5oUNCCGovLckgIVTDQDj1QNJklheXmZ9fZ1AIEAymWR4
+ eBgAWZbPLGBzc/NSdwDA7/cTCoXGj8ePTOLZ2dl+4Gb1LU2WZcbGxgiFQpim
+ ya1btxwDHo8HVVXrfjKZzKXE1qOS82ZFo8PxO5Aol8tOjwMEg0GCweBXCT9/
+ /syLFy8aLvQkai5KAnheHRwxIIQYz2azdHV1AbC3t8fk5CThcBhVVVlaWqK7
+ uxuA3t5ehoaG6hbL5/O8f//+SgwIIcZPNAAkLMtyJs3Gxgb3798HoFQqsbGx
+ wejoKO3t7QwNDTEyMlK3mKqqDTeg6zrFYpGOjo5EbdwxMD8/77NtO17tfyEE
+ sizz6NEjZFlG13VCoRDt7e0A+Hy+hgo8C9lsFkmS4vPz877Hjx8fHDFQKpV+
+ BdxCCOeEeDxOJBJhb28PRVGc9gEwDIPd3d0TC10FmUyGnp4ed0XrX0cMCCHG
+ c7kchmGgqqpzktvtJhwOOwmqLC4unlpM13VnLkWjUcrl8qUNdHZ2Olq/MgAk
+ /H5/w1pDURRcrsNVurr0NhBnHgjbtnnw4IFbUZQM8P0b+2IcpNPp4LNnz0wP
+ gKIoI4Dv9evXDbnVVe7evUsgEDgS6+3tpXaenYVCoXB8c/RVNK9WWyiRz+cb
+ Kv4kZmZmcLvP92C6vb3NwsLC8XCCWgO5XK4B8r7N3NzcuS+UEILBwUEsy6oN
+ J4A/PHC47Gma9k9fX19X46RCoVBIWpZl1MYikUjctu3z9dBhrk1N07TquNqG
+ HgBN01x37twZqe66DeSnBub6pXrw6tUr1tfXn8OXZXRle3v7N8MwrmwTgsPH
+ kZM2v9O4du2as7wrisLOzg7AMlQMmKa5kkql+PDhA58Wlxhu09iJSPRFIWWZ
+ /Jf38a9u4xJeZD2IjJ901ouc/ERE7kBylcj59r8pxDRNtra2OM988/l8RKNR
+ Z+JPTEyQTqcB/obKPvDw4UPX6urq1sDAQNDr9Z67P89KoVBwraysyLU7/bfo
+ 7+9nbGxMlyTJAtA0zU4mk7svX74ctm3bFt/zL6apqan4wcHBmq7rZz4nEAiU
+ TNP0vnnzpu7S9V0NXAU//O9CLQPNpmWg2bQMNJuWgWbTMtBs/gfLo89j9ZbR
+ dAAAAABJRU5ErkJggg==
+
+Package: desktop-photoapplet
+Version: 0.3.2
+Architecture: armel
+Depends: libc6 (>= 2.5.0-1)
+Installed-Size: 244
+Maintainer: Jay Pangmi <jayhetfield@hotmail.com>
+Priority: 0
+Section: utils
+Filename: pool/non-free/d/desktop-photoapplet/desktop-photoapplet_0.3.2_armel.deb
+Size: 97048
+SHA256: 4c739e138dea9302a6020236c1affa30c688244ab6d2238cec793ae06e2525f0
+SHA1: 299490147df6053e96abf947bc68a7644a18b7fb
+MD5sum: a04d99e7e4094e6cb6b2834f7cd80831
+Description: Desktop widget to display slideshow of images for N900
+ Displays slideshow of images from a selected directory in a resizeable
+ widget in the desktop with transitions and touch activated controls for
+ navigating back, forward and to display the currently showing image in
+ the system's default image-viewer.
+Bugtracker: https://bugs.maemo.org/enter_bug.cgi?product=desktop-photoapplet
+Maemo-Upgrade-Description: Hidden files/folders support & improved USB support
+Maemo-Display-Name: Desktop Photo Slideshow Widget
+Maemo-Icon-26: 
+ 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
+ uE9+4Pn/Z/BscR9mIhAAAAAASUVORK5CYII=
+ ====
+
+Package: fmsx
+Version: 3.5.7-1
+Architecture: armel
+Maintainer: Marat Fayzullin <marat@komkon.org>
+Installed-Size: 677
+Depends: libatk1.0-0 (>= 1.24.0), libc6 (>= 2.5.0-1), libcairo2, libdbus-1-3 (>= 1.1.4), libdbus-glib-1-2 (>= 0.76), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.9), libgconf2-6 (>= 2.13.5), libglib2.0-0 (>= 2.20.0), libgtk2.0-0 (>= 2:2.12.9-0osso1), libhildon1, libhildonfm2 (>= 1:2.21+0m5), libosso-gnomevfs2-0, libosso1 (>= 2.21), libpango1.0-0, libpulse0 (>= 0.9.15~test5), zlib1g (>= 1:1.2.1)
+Priority: 0
+Section: utils
+Filename: pool/non-free/f/fmsx/fmsx_3.5.7-1_armel.deb
+Size: 378528
+SHA256: a3a4178bd5a2955af5d796d529cc1523522f9b7cc46c061314b070d4cee0cbe9
+SHA1: 0509da9b48c94688782201b87d3823d1e8ad7713
+MD5sum: 8526dd1574ca2e6815a55572ff2cf4e4
+Description: MSX home computer emulator
+ fMSX will run software written for MSX, MSX2, and MSX2+ 8bit home
+ computers. MSX is an old Z80-based family of home computers which
+ appeared in 1982 as an attempt to establish a single standard in home
+ computing similar to VHS in video. They were popular in Asian (Korea,
+ Japan) and South American (Brazil, Chile) countries as well as in
+ Europe (Netherlands, France, Spain) and former Soviet Union.
+Maemo-Icon-26: 
+ iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgI
+ fAhkiAAAAAlwSFlzAAAHjQAAB40BBo7frwAAABl0RVh0U29mdHdhcmUAd3d3
+ Lmlua3NjYXBlLm9yZ5vuPBoAAAUySURBVGiB7ZpdaBRXFMd/s/ncpo0bCbFW
+ SNp8dGuxqVuKSkHstlKhGA0lQhUqSCtIUR/al75oEWzpgz6JL1IaKFiKVd98
+ UpLIYiIihk02McYEEhtLbFOzqV1n15g9fZjZcWd3Zz9md10L/mGYc8/cufv/
+ zz33zLnDKiLC/xmOUhPIF88FlBrliQ5FUb4G3ikBl2xwQ0SOxzuSBKCR35Xr
+ yApQA/xrj5ht5BVCDmAfcB74CwgCvcBH+fPKGqlmICu8BPwKfAyEgQhQBrwP
+ vA60AQ/z55cRtmagCehHI/8d0AC8AnyvX18B1BeCXTYQEdMBnAYk3XEFREB+
+ SvBXgvwOsi/D/XkcpxP55hxCnwLvAY+AbxKuPQI8wFyug+aBnEKoGvhBt88D
+ f6bo8zTJQ44CPkGLf4CfC8/FFnIS8IF+jgJXCs/FFnIS8KF+HgH+KTwXW8ha
+ wGvAq7r9rDx9yEGAN86+UQQidpG1gHfj7EARiNhF1gLWxNkjRSBiF2lfZC60
+ 0rQdeFv3PQS+TNG3Fq2EaNDPPwKnCkYzDaxKic9BonrJkOvRB1JW6lLiC2Aa
+ GESbpg7d70Mr5IwHgJZS54C/9bMfWLL/THNDqhmoA9kF4tCVfxX3dD8rXqFW
+ uBmYB36Ja78VZw/n8bCKgayyUCwDLQE3i8fFFjKW0w7gTd2+DTxSFF5escLU
+ JxQK8eDBA1wuF9XV1YZfRLh3757RXrlyJa2trdpYt28zOzsLQFVVFXV1dUa/
+ ubk5ysvLcblcAKiqysLCQmqCmTY0LXHx/xuIy+WSRJw9e1YAGRgYMPnD4bAA
+ 0tjYKD6fL+m+0dFR8Xg84na7Tf6Ojg45fPiw0T5y5IjlGsgooDNOwLcWAiYm
+ JgSQYDCYUkB3d7fhm5ycNAnt6+sTQKanpw3fsWPHpKenx2hv2rTJUkDGNRD/
+ BrZawM3NzbS1tbFs2bKU19etW2fYZ86c4eTJk0Z79erVAFy6dMnwbdmyhQ0b
+ NgBa+Fy9etWSX04CUtVA0WgURVHo6uoCYHFxManP/fv3DXvnzp0sLCzg9Xrx
+ er3s2LEDgIsXLz75zTVrcDqdAPT39xOJRKwJZgqhgB4+qv5eSAyhsbExEREZ
+ HBwUEZFAIJAUQnv27DHds7S0JCdOnJDa2lrjdxoaGpJCU0Tk0KFDad8DaWeg
+ Eu0bD8Ao2k4sEUNDQwCsXbsWgJGR5FKvu7ubrq4upqamAHA4HOzfv5+xsTG2
+ bdsGYMpC8YhlLSukFeAGKnTbqoSOCYghlYDKykouXLiAx+Ph6NGjqKoKaGn1
+ +HHtU+f69etTjr9161bKysrsCchmAfv9flM7lYDe3l5UVWV+fp6Kigr27t1r
+ XGttbaWpqckkwO/3G+tm+fLlbNy4MX8BVjMwPPxE2uLiIuPj40l9YqEDUFNT
+ QyBgHq2+vt4kYHh4mJ6eHqPd2dlpyTFrAVabmGAwyJ07dwAYHx9PmYUuX75s
+ 2Lt37+bcuXNGW1VVJiYmaG9vN3xDQ0OmtLp9+3ZLjmlLidgCjgJ/xOxo1FQe
+ RKNRfD4fmzdvZmBggMePHxvXw+EwAKdOaVubgwcP4na7aWlpIRQKcf36dQ4c
+ OEBzc7Mp1V67do2ZmRljHKfTidvt5tatW8kk06XRkJ5CZwtYEldVVcmqVatE
+ UZTibmjqgRd0e9aqkw1EIhHu3r1bsPEs10BjnG2dxEoPSwHxH27fAJzF52IL
+ liE0g/Yt9EW0fbD6tBjliLRZqPdpscgDqQQ8S18OE5HETZHn/5UoLZ4LKDX+
+ A+pEy92DvIyqAAAAAElFTkSuQmCC
+
+Package: frogatto
+Version: 1.0.3-maemo2
+Architecture: armel
+Maintainer: Philipp Zabel <philipp.zabel@gmail.com>
+Installed-Size: 72
+Depends: frogatto-data (>= 1.0.3), frogatto-engine (= 1.0.3-maemo2), frogatto-music (>= 1.0.2), frogatto-sounds (>= 1.0.2)
+Priority: 0
+Section: utils
+Filename: pool/non-free/f/frogatto/frogatto_1.0.3-maemo2_armel.deb
+Size: 3920
+SHA256: 9fbbe58dbac8a766deb478e367efb2d736d1dc0a246810bf20b619ee421ade75
+SHA1: 1c581bf219013942233c9af2c9668fac55fdb719
+MD5sum: 68a579ed7ac7267febd2f9e93e417e02
+Description: Frogatto & Friends jump-and-run game
+ Frogatto is a "platformer" or "jump-and-run" videogame. Like many older
+ arcade/nintendo/sega titles, the world is viewed as a cross-section seen
+ from the side, and your character walks and jumps between solid platforms,
+ whilst avoiding being hurt by monsters. We're not a clone of any specific
+ game; although just by being a platformer, it's impossible not to have
+ something in common with games like mario or sonic. So we are trying to
+ innovate a bit.
+ Frogatto is also the protagonist's name. It's eponymous.
+Bugtracker: mailto:philipp.zabel@gmail.com
+Maemo-Display-Name: Frogatto & Friends
+Maemo-Icon-26: 
+ iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c
+ 6QAAAAZiS0dEAAAAAAAA+UO7fwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0
+ SU1FB9oHExUDDLeLz/sAAALhSURBVFjD7ZZPSJNhHMe/zxg42HvYpYN7cSAx
+ aBd5xxQc1s1DFIzIJDrUCIxaHqxbQRFS/kEPURjzMKhOEWWHHSIiJBSZimsv
+ XZSGCMrMnZr0Dt8HZE+Ht+fxXVP3vrrlxQdexvPbs/f72e/vQxhjOMrlwBGv
+ Y4BjgJoAEEIYIYTVHYALmcUIIWxgbhN5SnEgCMaYpQcAG5jbZHlK2cDcJgPA
+ uI3SLKM0K+xW38kYg21xs9jz8/0sT6mw5ym1DWA5BD2Kq2L/6oIm9gX4DpQ/
+ Trs/2E3o7cVhAMDlD/fqD2AWVJs0JFp0qF9HAAC/1Tv1A0iougjD9F9BXL0G
+ AFAm1/9PH0ioOhKqDmVy3XhCEh6+3HG7etN+CIiVcUwIYY5bMTy+PixsE9+f
+ wC0bDpxJFiB3uuDzZ+DIhTF9boiXOKkZwJmP9zGTLBguD0lwy06U5BQizUWc
+ bThVdv4TXcLY59NYu/S0KkRVAC5eklNw5MIAgJKcAoBdxfm6vbSG1WywKoSl
+ HODiXJivvcQBIBUPwOfP1CYJV7NBlOQUvNFAGUSwTyo7x/fBPglypwupeKA2
+ ALkvOrzRAJZ7JXijAfEPlZBUJhqOLYpPACiNxw+fA+YqUEKGmJrW0BHxiO9n
+ kgWEY4uINBeRXHGLSqhZFXAIADCD8EoQ7rRZgrYAzCDdSszoBe079q5Z4J0a
+ tyxsuRWbLxn85RPtRi9QTOcmoKEbsYpLSTUgZzXxpvd34fNnsDXfJnKhI+JB
+ MbeNrpYHaNQpxn6MGjkxWxAhUtMalJAEQgjbD2LPEPwrfvKFVub2xJV+AMBP
+ VwMadYqeN49EKPg5Dvrtxuienti3DE/8ciLSXISa1rAx6EHr1AIyz4wK4IJc
+ XAlJGBpZQOvUAtZfL6I0Hj/8MOIJtzHoEX0fAJIrbmzNt0FNa7vOBn7GGw1U
+ TUzLs8A8Axy5MIq5bRGW5d7KsrQyB2w1ooNcNmraiOq1/gAtCRSty4HhxAAA
+ AABJRU5ErkJggg==
+Maemo-Upgrade-Description: Fixes CPU usage while locked
+  This version includes small bug fixes for closing Frogatto from the
+  task switcher and for loading savegames stored with older versions.
+
+Package: frontview900
+Version: 0.2-2
+Architecture: armel
+Maintainer: Ben Lau <xbenlau@gmail.com>
+Installed-Size: 3943
+Depends: libc6 (>= 2.5.0-1), libgcc1 (>= 1:4.2.1), libgq-gconf0, libqt4-core (>= 4.6.2~git20100401), libqt4-dbus (>= 4.6.2~git20100401), libqt4-gui (>= 4.6.2~git20100401), libqt4-maemo5 (>= 4.6.2~git20100401), libqt4-xml (>= 4.6.2~git20100401), libstdc++6 (>= 4.2.1), libx11-6, zlib1g (>= 1:1.2.1)
+Priority: 0
+Section: utils
+Filename: pool/non-free/f/frontview900/frontview900_0.2-2_armel.deb
+Size: 2042394
+SHA256: 461e090da599b06ef3fedcd12db98ce5ec0afb6b97f65fcc679bdeac705de07c
+SHA1: ceda4229b90665ccb7f73a6c9571124c19ed7709
+MD5sum: 75ae04050c86e338ffa89fe9dc75b361
+Description: FrontView - Turn your mobile phone into a document scanner
+ FrontView900 turns your N900 into a document scanner. Use the built-in
+ camera to take snapshots of hand written notes, typed document, name
+ card, etc. Then FrontView converts them into a flatted document image
+ by de-skewing automatically.
+ .
+ Features.
+ 1) Image de-skewing - Convert perspective view image of hand written drawing / notes to front view
+ 2) Paper auto-detection
+ 3) Manual/ semi-automated detection mode for complex image (e.g Use stylus to draw out the input region, the region will be corrected by FrontView900 automatically.)
+ 4) Misc features: image crop , rotation
+Bugtracker: mailto:xbenlau@gmail.com
+Maemo-Icon-26: 
+ iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAGXRFWHRTb2Z0
+ d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAACHdJREFUeNrMWulvE1cQnz18
+ xHZu4iQmce6AcQ4IUKgqEFRIVBRB+yVSP9BKSIFKQKWKqn9AVSJQK6goQv2E
+ qFShVkUFlbYqR4MEScuVxtAEnIMUCsS57CSOHTu+tjPPdjDBsUliB54Y7+7b
+ zdv5zZuZ37y3cJIkwaVLlzxKpbIFAC4IgnCR5/lbEKeNjIxAfX09jI+PT/XR
+ WAvdePpRq9WyioqKDVqttlEul9/0er2dHo/nmN/vfwtvK+EVbiL9oNUhNzeX
+ SSAQALvdXjk2Nkayx+l0jvt8viaclXP43O8cxz155QBETj0qChkZGUyoud3u
+ VASyfXR0dDsCo+tbCOJX/Jvv8bb5lQAQq2FsMKHZIaAIYhWCWdXV1bUf3Swd
+ Hwm80gAiG1oe0tPTmdhsNs2WLVsMZ86c6Zj+XFNTk0uj0SjnE9T0roGBgT9P
+ nDix7ezZsyMzGopecu3aNWk2DeNEMplM0unTp00ymeyZsUja2tpc0jwbGkhq
+ bW2VTp48ea6qqio1Zhaai3UwQ0F+fn6tKIo5yXCNlJQUllwwO27dtWvXF4WF
+ hWLCAFCjbFVWVgYNDQ37kwGAZpYA6PV6WLNmze7Vq1d/lFAAyBeQk5MDO3fu
+ 3IeZS5GsIMVZZu/Zu3fvJ3V1dRsTBgBdh6XcrKws1aZNm7YnnGFx7PAsFBQU
+ kOQ3NjYeRVcyJAQAsjc74oBw8ODBr+czViwjhd2JXAlBVB0+fPg4vjuPQnFe
+ ALDsoDQHjx49AuQDLQIxJhpA2EjUFAoFMxaC2IAgvsIuFYHg55MliOCQpdnx
+ yJEj3yZSecp0mZmZ0N/fDz09PZTqobm5md0zGo31Bw4c+DwqkRH3eHw+UMji
+ c1yY1LD4I2JbkegZIKvn5eWx8/LycnZ0OBwwMTHBIUdsxss0MRqxXWm7D0qF
+ jIFQ4VGjUoAmhUTO+qOlPJfLBZs3b2bXhw4dSlrpgAzPXAvLeDEqAJ7n4I2a
+ UnBNesHpngSnywPWMSc8GRoDH5IXU1gUIEUhZ4BKdFkgYqbo6+tbsPqHSNRi
+ sXAszqM9oFLKmGSnq56752bAvOBwEbhJdDc/AxCr3enpg8ERBz43t5DzeP2w
+ pEgLRXmZz5Qssy7mWHWKLkQSDZzp9Y8blv915Dti6chWU65buGqUkPU8HmY+
+ r5SLGEgUCwIIfHzrSRz/pbl2RzmW2xwugqby+IKX0+Tzw6NO5vP+QHCqBIwN
+ chU5glHKZRgDQdFmaSLASZzBYPj01J1uv9Fohezs7KSDEKPl37VVxU8DBt3B
+ iz44iWIesMOgww3ucQde+7A/AMUYxCk4U/+5WBwIK/WL4MYDSTh+uR32vFnN
+ QHT8O5DQGJjVgoasKyh45vef/WCCh2OeEFL6hz9/W4OczpXD29WLVAqlAl4r
+ yYFvrtpA5Nvhw43VYCzJTVociLNLXwFYX5kLBZlqcPkllnIFrEa8eG/cI4EV
+ Z+TuuBe0CKJhnQGOXb3HQDRsqGasKsTJVgkBgIstuHq7l5EYTXlYKPe7Jj2o
+ LgdXBybAhsoKnID3gIGg+BAFjBPsG5gMQIomBRrWL4OjVzpALnTAB+uMSQEh
+ Ts9AGAJQUbAI/Hju8wWDmI5eFEqPPAtmVNoXXXlR5CmQwIGct0qbBluXl8Jx
+ UycII5ehsqICVGpN8mNAl5MO0QnuPgtyniOl/VGVlyNADc6eXi3C9d5BuNDW
+ CfWyLliSb4BVSxezoKYx5tKCBuamks2ciIz+bEOeirkSLToovVLvuE+CQYyD
+ yQAHhaj8Q4sVfms1wzapA4yLc0Gn07EKdq7Kz4LIiAccLPtwPFmb5RrmOhQf
+ p270zjjY2tJceLeuBFofDsG5W6T8XagryoGamhooLi4GlUq1MEx8G2sXWUSw
+ SaHffUuVcJ9/AJa+J+DzelmvHv2SGLulpQUuBt7zFC1Klf903QzvACqvz4ba
+ 2lpw8xq42dmPLjY0Zx6o1OdAcX7WiwXxxrry6AN5PDBqKKR6nFWE9CzNGLkF
+ 7VZfmOR9P14zw3pbs7hyeTlPlqedi9TU1IS4TjCJ8PGDmL1LirT+050IWkpG
+ Y2/aOYDHMFHQ+8fPhlLN+2h5PpHKz2pji+PI/4PCxxTume8CGdbu3dmD7Rcr
+ KysDtIJKS0tLuPLTtyufcyG6b+p+xF5MQRvADjrSveB56DkIPruiQsdWbNSK
+ u35pwkOWXq+XSHl6joDe7n7CikNhrrUQchBxU4kuOzaAsNMQ68qJialUEPhg
+ PUSC+Z6OxMzUL/JBho5odhQnLvskUpzihKSqNC9hK7G4MUCWry7TPQcqnGOl
+ 0KUUOpdCMxSOM5Kw2yTjk1NcF2Ja0No3VG1yXHgLiWPRzUVWoiGrvIRPY7Gz
+ EPmcDytPEm+oDqI+ysfhc58P76HyxhItqHCBP5O1yMVM3Raw2p0vtKqL1uid
+ ZYuzoRTXHv5AnBkgd2i+84D5OVmfmJj8XRaqSGlFloZBS8tMipPI/aPz588H
+ 18Ym09R4Hlz4LCumHfj578LTWNOr2ahEVlepY4rKQsFK9U5kOpSkpzsD/oC0
+ oJ9X48YA+4ykUYIUCKZKlkoDUszBZsr1xJzJJLEZY4BWXrGs+qIWfylZaDYv
+ jWfdZCwh6Z2ROoozLRiiKcmxgBZeWDGqnZLRaDM56s4cW20xxp1ZSdrEHR0d
+ heHhYSZDQ0PsaLfbveFn2tvbWUZKVnDTZnKYkcXIqaZ9/vBMkJK092+1WpmC
+ dLTZbNTnRRD3MUA7cJDboijewQH/wfOplc6OHTuIyovoG8W0gjZhnhRi/SAA
+ +i8E9AGBFCRFSXns87jd7l5UtBNn5i4q2o6KtiPYLrVa7Y7zAifKA7JNkrOq
+ mwGwWCxdZrO5Gy1/DxXtQDGjoj2o6PAcMwXtfnkWghf+F2AAqU09ku/KAIgA
+ AAAASUVORK5CYII=
+
+Package: ines
+Version: 3.6.9-2
+Architecture: armel
+Maintainer: Marat Fayzullin <marat@komkon.org>
+Installed-Size: 222
+Depends: libatk1.0-0 (>= 1.24.0), libc6 (>= 2.5.0-1), libcairo2, libdbus-1-3 (>= 1.1.4), libdbus-glib-1-2 (>= 0.76), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.9), libgconf2-6 (>= 2.13.5), libglib2.0-0 (>= 2.20.0), libgtk2.0-0 (>= 2:2.12.9-0osso1), libhildon1, libhildonfm2 (>= 1:2.28+0m5), libhildonmime0 (>= 2.1.3), libosso-gnomevfs2-0, libosso1 (>= 2.23), libpango1.0-0, libpulse0 (>= 0.9.15~test5), zlib1g (>= 1:1.2.1)
+Priority: 0
+Section: utils
+Filename: pool/non-free/i/ines/ines_3.6.9-2_armel.deb
+Size: 100888
+SHA256: dac3e2d880afcb8e6a977e5b200cc7161b3db502b9afb8cb9da1852324749029
+SHA1: 8ad52f1ad6b4a4be6ade3fc1f2fc77e6953b77d2
+MD5sum: 083b81586fbf395eaffc9e18e51a0750
+Description: Nintendo NES/Famicom emulator
+ iNES will run software written for Nintendo Entertainment System (NES)
+ and Famicom videogame consoles. It also emulates Famicom Disk System,
+ VS System, and other Famicom-based hardware and addons.
+Bugtracker: http://groups.google.com/group/emul8/
+Maemo-Display-Name: iNES
+Maemo-Icon-26: 
+ iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgI
+ fAhkiAAAAAlwSFlzAAAHjQAAB40BBo7frwAAABl0RVh0U29mdHdhcmUAd3d3
+ Lmlua3NjYXBlLm9yZ5vuPBoAAAQ/SURBVGiB7VnNbxtFHH273njXa8fe5qNO
+ JGylNSlEpSpJClJAVd1IKFKjqhItcOFLvXDmHwAJTnBAHJAqbsCRE4cmCooo
+ h1KkkgLlI0QlcQu7JXFCQuvGduz9+nFpHO/ubBK1dlaV/KSV7Pdm1u9pfjOz
+ O+aICI8y+KANPCxaAYJGK0DQaAUIGo98AMFN5DT1AIALzf5h27b5leWV/Fvn
+ z3/E0l99842v+vsPxcCBAEAQBOOpI0eez6TSt+rbeQIAeAHAWOMtO8HzPMAB
+ No/XWLqu63h6aNDB3bp58+VMKv2B4z6MvtmGudwB3V1d4DiOqS3Mz3s40zTP
+ uDnWCGQf1thuERIEnDv3ElMzLcvDJZPJo27OESCnqYcA9DbI366QyWQg8CEP
+ bxPBMk2EhC2L8URCzmlqfyaVrg2Pu4RONs2pD3iOvRDyHIfFxUUPn1tYeNHR
+ zqVnG2Vst2gLt/lqd+/c8XCWZTnmQeABRFH01YrFoodLJnsc86AWIKepTwDo
+ aaC3XUGORn010zA9XEJJyDlNfXzze/0I7Hn9A0B7ezvCksi8IhEJrDfGhfn5
+ s5uf6wNk98CvBwlFgSAIzEuUJCwvL3v6WJZdmwf1AU7shWE3RFEE2YQQzzOv
+ 1ZUVT59kz9Z+wANATlOfRAD1vwldr/pqpWLJwymKIuc0NQNsbWTM+rdME3tx
+ ZlHRdXA++8FGZYPJ/3njxtlMKv3hZoAsq9F64R4istwIj9vi919/wxeff8bU
+ YtEosqOjHp5sOgOgFsBT/4ZuIBKVIUpSA62ykexNorO7i6kV14tYzueR7HFW
+ +OY84HOaOgAg6e6oVysIb7PJNBLd+/f7apIkYXZ21sMr+/ZFc5p6UNANY1gI
+ hX50N9B1Ix4hutfsk7tyuRwTw6JiVPTbfm2+v/zdQCwWE8SwWKnn44n4CeFu
+ odAGYNjdab1QgEF2Eyx7EVeUn8qlksfDfeh8m3C1L5M5DiDs0jQegNpceztj
+ bXWNvdQAIKK/hoaHu1kSgBkegNY0Z7vE0uI/vnVq2/a/A4cP9zGkuZHBoYIA
+ nwARWcZ6odAgi9tjJZ9v99OkiFSORCKspfAqAAgjg0Mbn3x6YaJcKipNc7gD
+ rs3MdPpp8Xiievnbb664+cfSfVMjg0PgiAinTo2NcjxNI6Bzorm5hbVqpcoM
+ kUr1Xurs6nDvZBOTE9OniYgEAJic/PrS+Omx90H0rvsGGxsVLC06nwgPHEzj
+ trYEwzBqnKIk0NH5QINIelX3G4GSLEfc5aVaJv863V/fa2/Mzx577r0frl05
+ DoIjrSiG0dXtvD/HcejoVGBZtqPdA7kHrRIRa5UBEf0tSlL9IYNBNr0yNTX1
+ X81L/UY1Pn6yB1zbdTB25maBiH7+5fofX7I00zSlY88cfQcABwAc6O2LF6c/
+ rm/Dtf4jCxitAEGjFSBotAIEjVaAoNEKEDT+BwlzW9DACqL4AAAAAElFTkSu
+ QmCC
+
+Package: mg
+Version: 2.6.6-1
+Architecture: armel
+Maintainer: Marat Fayzullin <marat@komkon.org>
+Installed-Size: 301
+Depends: libatk1.0-0 (>= 1.24.0), libc6 (>= 2.5.0-1), libcairo2, libdbus-1-3 (>= 1.1.4), libdbus-glib-1-2 (>= 0.76), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.9), libgconf2-6 (>= 2.13.5), libglib2.0-0 (>= 2.20.0), libgtk2.0-0 (>= 2:2.12.9-0osso1), libhildon1, libhildonfm2 (>= 1:2.28+0m5), libhildonmime0 (>= 2.1.3), libosso-gnomevfs2-0, libosso1 (>= 2.23), libpango1.0-0, libpulse0 (>= 0.9.15~test5), zlib1g (>= 1:1.2.1)
+Priority: 0
+Section: utils
+Filename: pool/non-free/m/mg/mg_2.6.6-1_armel.deb
+Size: 121806
+SHA256: 284b622a0bdb7be6b3ad3b47fd5b9c8beefc585844dbfdbd2bf7888bb7da0903
+SHA1: 2f0ac73aa989580a2bc326eb72a31e049e003d56
+MD5sum: a1d25c22db4bab0028228f14e36d67ce
+Description: SEGA 8bit console emulator
+ MasterGear will run software written for 8bit SEGA videogame consoles
+ and home computers: MasterSystem, GameGear, SG-1000, SC-3000, SF-7000,
+ and their Japanese analogs.
+Bugtracker: http://groups.google.com/group/emul8/
+Maemo-Display-Name: MasterGear
+Maemo-Icon-26: 
+ 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
+
+Package: moviefinder
+Version: 1.0.2maemo0
+Architecture: armel
+Depends: libc6 (>= 2.5.0-1), libdbus-1-3 (>= 1.1.4), libdbus-glib-1-2 (>= 0.76), libgcc1 (>= 1:4.2.1), libgconf2-6 (>= 2.13.5), libglib2.0-0 (>= 2.20.0), liblocation0, libqt4-core (>= 4.6.2~git20100310), libqt4-dbus (>= 4.6.2~git20100310), libqt4-gui (>= 4.6.2~git20100310), libqt4-maemo5 (>= 4.6.2~git20100310), libqt4-network (>= 4.6.2~git20100310), libqt4-phonon (>= 4.6.2~git20100310), libqt4-webkit (>= 4.6.2~git20100310), libqt4-xml (>= 4.6.2~git20100310), libqt4-xmlpatterns (>= 4.6.2~git20100310), libsqlite3-0 (>= 3.6.14), libstdc++6 (>= 4.2.1)
+Installed-Size: 784
+Maintainer: Peng Li <pengli@ikamobile.com>
+Priority: 0
+Section: utils
+Filename: pool/non-free/m/moviefinder/moviefinder_1.0.2maemo0_armel.deb
+Size: 312548
+SHA256: f0bb2fecd77e86e20d56a9c90d92bf8c8eaa9d60646c0b85621abea651225433
+SHA1: fadb41546478b1519f821aeacbe409cb889d3a4d
+MD5sum: 1e7877c9778e2394fd7f19ba737ce108
+Description: Find theatres, movies and showtime.
+ Going to see a movie?
+ Use ikamobile Movie Finder to quickly find theatres, movies and showtime. Watch high-quality trailers and find cinemas near your location.
+ .
+ This application requires network connection. WIFI or 3G connection is highly recommended.
+ Type 'city name, country code' in location combo box, Movie Finder Currently support below country codes for querying:
+ US, CA, UK, DE, DK, NL, CN, SG, AU, MY, FR, ES, IT, FI, SE.
+ .
+ After the map displayed, you can click on the 'show time' to query movie info from server.
+ If the city was not supported by Movie Finder, the result list will keep empty.
+ You can switch among theatre list, movie list and coming soon list by click the button at the bottom of screen or drag the list leftward or rightward.
+ Click the item of the list, you can see the movie detail or theatre detail. Click the 'ShowTime' button in the detail page to see the showtime.
+ Movie Finder support multi language according phone language: English, French, and German.
+ .
+ Limitations:
+ Sorry but we can only support portrait mode for now. Portrait mode is suitable for showing movie list, but not for typing, we didn't support auto-rotation because the behavor is messing on Maemo5.
+ In some countries, movie trailers maybe can't be displayed due to technical reason.
+Bugtracker: mailto:pengli@ikamobile.com
+Maemo-Display-Name: Movie Finder
+Maemo-Icon-26: 
+ iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAAK/I
+ NwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAABbB
+ SURBVHjaxFoJlFXVld1v+mP9uWaKoqgCChAERXFAG9EgGDUixiHGRqJox7TB
+ xGgmjR01SXfapDtZHRMUh8QhQcPgENAQ54lJMSBDITUBRc31q/48vvd63/sL
+ IkqbtbK6O5/1qvjvv/fuuffss8/e95di2zaOvO7+/vdhWhYU/jPNIoaiUfl/
+ w+HgTyCfz6NQLEJRVNi8zukwULRMRIIhlIeD0DUNUIHoSBwD0RifYcJpOFBV
+ EYbb6eR9gMX7+oaiyGZyKBSKKPN5EA4FFYeu6/y8SrHssf3R2LThRGK+x+0a
+ Kivz/pRDt4r4vs/4Pv7Sv/KNb8JmQLlcHqFgENlsAR1trRgYiMoBiww4FA4j
+ OjSEoeERBu1CgYHlTAUXzj8H9975VVRWVCCTy+Ghx1fj0SdW41B3N2qqq/Fv
+ d92Gc88+A6qqIJXN4t4f/xxbt25HPptDeXUFfnzPd1BfW+Mb6B88jwt28er1
+ L53+2OqNTbNPn6FPqhmTTceGt3PCVZqmtX50oY+ZAP5Or6n1VeFHH3x4ymmn
+ n7L4zDPnXBCO1I7VDI9rOJXTs3kThuF2KUosmM3mprtdrq2qohb+7hNorPBV
+ NF44t25f28GF8ay56KYbrp0wY8aJfqJHU/ja8OpWuB1ORIdTSBaLmqppoWw2
+ P9vptF9WVez/u0zgjjvuCtbX1TRVRiIXenzBcze9t6t514cHIhdccL5+yimz
+ lCPXPb76BezcuRs1Y8egbzCGQ30jmNVYHY4NDzawAGt5yf/fBG5Zcol3aCQx
+ 4a3XX/vsZxfMXzD7jNOmudwe/+33/FR/7rmXFM1fhuuWfuGYe3795GpbQUGp
+ jAThCwURioShOB1qKp19z+N27rHxf1wDK3+5IkhWarp84Rln7N5/8LPQXbPu
+ vvWm4MT6MYaAx572Ljy3ZgPSqQSuuOJijKuKHL33tU07EUtklSsuX4TGxvHQ
+ VeRTyWjX7l27fx8dGHhs2uSJg//TuH/zBC46a6biNFOBe+79UdNps2adN2fO
+ nIU9Q4nJG1c9G9q89QPn8q/eqEwaV3f0+l89+Kg9dLhNcYYjuGHpVcc8S3Nq
+ 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
+
+Package: mycontacts
+Version: 0.9.27
+Architecture: armel
+Depends: libatk1.0-0 (>= 1.24.0), libc6 (>= 2.5.0-1), libcairo2, libdbus-1-3 (>= 1.1.4), libdbus-glib-1-2 (>= 0.76), libebook (>= 1.4.2.1), libedataserver (>= 1.4.2.1), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.2.1), libgconf2-6 (>= 2.13.5), libglib2.0-0 (>= 2.20.0), libgtk2.0-0 (>= 2:2.12.9-0osso1), libhildon1 (>= 2.2.22), libhildonfm2 (>= 1:2.28+0m5), libhildonmime0 (>= 2.1.5), libmcclient6, libosso-abook, libosso-gnomevfs2-0, libosso1 (>= 2.23), libpango1.0-0, libqt4-core (>= 4.7.0~git20100909), libqt4-dbus (>= 4.7.0~git20100909), libqt4-declarative (>= 4.7.0~git20100909), libqt4-gui (>= 4.7.0~git20100909), libqt4-maemo5 (>= 4.7.0~git20100909), libqt4-network (>= 4.7.0~git20100909), libqt4-opengl (>= 4.7.0~git20100909), libqt4-script (>= 4.7.0~git20100909), libqt4-sql (>= 4.7.0~git20100909), libqt4-svg (>= 4.7.0~git20100909), libqt4-xml (>= 4.7.0~git20100909), libqt4-xmlpatterns (>= 4.7.0~git20100909), libqtm-contacts, libstdc++6 (>= 4.2.1), libtelepathy-glib0 (>= 0.7.37), libtelepathy-qt4-0 (>= 0.2), libx11-6, libxml2 (>= 2.6.32), hildon-application-manager
+Installed-Size: 1136
+Maintainer: Felipe Crochik <felipe@crochik.com>
+Priority: 0
+Section: utils
+Filename: pool/non-free/m/mycontacts/mycontacts_0.9.27_armel.deb
+Size: 370886
+SHA256: b21710aa27475833e6eb924d61e3725c6d729288dd050abb6fd6d1d93e0e7ef3
+SHA1: 79cf38460f7f1d4e1722bc313087def77077a95b
+MD5sum: 29346f0f43280863c55b0321c54eca88
+Description: Contacts application, desktop widget, custom ringtone per group and auto-reject calls.
+ Multiple views, including avatars, phones and e-mails;
+ Desktop widget with up to 75 contacts in 5 groups;
+ Double click to call a contact (widget only);
+ Individual ring tone per group of contacts;
+ Auto Reject Calls;
+ Customizable look and feel;
+ Vertical mode with virtual keyboard;
+ Integration with FastSMS, fMMS, VICaR, qgvdial;
+ Start calls using SkypeOut or Google Voice directly;
+ Start calls and conversations with any account supported by the phone (skype, sip, theonering - google voice, ...);
+Bugtracker: https://bugs.maemo.org/enter_bug.cgi?product=mycontacts
+Maemo-Display-Name: Crochik MyContacts
+Maemo-Icon-26: 
+ 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
+ kc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE
+ 3ptnMU85ry1KNSo+qi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt/8
+ 7fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfIT
+ dyWOCnnCHcJnIi/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxM
+ DUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8e
+ lQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a/zYnKOZarnivN7cyzytuQN5zv
+ n//tEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vt
+ V5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1dT1gvWd+1YfqGnRs+FYmK
+ rhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aXDm4N
+ 2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO/PLi8ZafJzs07P1SkVPRU+lQ27tLd
+ tWHX+G7R7ht7vPY07NXbW7z3/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvtt
+ Xa1ObXHtxwPSA/0HIw6217nU1R3SPVRSj9Yr60cOxx++/p3vdy0NNg1VjZzG
+ 4iNwRHnk6fcJ3/ceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w+
+ 0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO
+ 32oPb++6EHTh0kX/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8/pPTT8e7
+ nLuarrlca7nuer21e2b36RueN87d9L158Rb/1tWeOT3dvfN6b/fF9/XfFt1+
+ cif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v+3Njv3H9qwHeg89HcR/cGhYPP
+ /pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF/6i/suuFxYvfvjV
+ 69fO0ZjRoZfyl5O/bXyl/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98P
+ T+R8IH8o/2j5sfVT0Kf7kxmTk/8EA5jz/GMzLdsAAAAJcEhZcwAACxMAAAsT
+ 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
+ AABJRU5ErkJggg==
+
+Package: oculo
+Version: 1.0
+Architecture: armel
+Depends: libc6 (>= 2.5.0-1), libgcc1 (>= 1:4.2.1), libgq-gconf0, libqt4-core (>= 4.7.0~git20100909), libqt4-dbus (>= 4.7.0~git20100909), libqt4-gui (>= 4.7.0~git20100909), libqt4-maemo5 (>= 4.7.0~git20100909), libqt4-network (>= 4.7.0~git20100909), libqt4-webkit (>= 4.7.0~git20100909), libqt4-xml (>= 4.7.0~git20100909), libstdc++6 (>= 4.2.1), libx11-6, qt4-homescreen-loader
+Installed-Size: 456
+Maintainer: Alberto Mardegan <mardy@users.sourceforge.net>
+Priority: 0
+Section: utils
+Filename: pool/non-free/o/oculo/oculo_1.0_armel.deb
+Size: 201162
+SHA256: 913c32aefaa4f223a0dc17edad16dceab80842e81dd789c8f2938f912eeec6b1
+SHA1: 12bdfe95587b12ffaea4ea2cd82439e2933c1b5d
+MD5sum: 9103b3f859bac67df85b1952902e69a9
+Description: Bring web content into your homescreen
+ Oculo is a home widget which brings web content into your N900 homescreen: it
+ can render web pages as well as sub-elements of web pages into a home widget,
+ periodically updated, or even as a desktop background image (live wallpaper).
+ .
+ It's ideal for having always up-to-date news, stock market quotes, sport
+ results, wheather forecasts, public transport timetables, comic stripes, etc.
+ always visible when you glance at your N900. The options are only limited by
+ your imagination. :-)
+Bugtracker: mailto:mardy@users.sourceforge.net
+Maemo-Upgrade-Description: Render as wallpaper, too
+Maemo-Display-Name: Oculo
+Maemo-Icon-26: 
+ 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
+
+Package: opera-mobile
+Version: 11.5beta1-14~fremantle0
+Architecture: armel
+Depends: libatk1.0-0 (>= 1.24.0), libc6 (>= 2.5.0-1), libcairo2, libconic0, libdbus-1-3 (>= 1.1.4), libdbus-glib-1-2 (>= 0.76), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.2.1), libgconf2-6 (>= 2.13.5), libglib2.0-0 (>= 2.20.0), libgtk2.0-0 (>= 2:2.12.9-0osso1), libhildon1 (>= 2.2.22), libhildonmime0 (>= 2.1.5), liblocation0, libosso-gnomevfs2-0, libosso1 (>= 2.23), libpango1.0-0, libstdc++6 (>= 4.2.1), libtime0, zlib1g (>= 1:1.2.1)
+Installed-Size: 15008
+Maintainer: Opera Packaging Team <packager@opera.com>
+Priority: 0
+Section: utils
+Filename: pool/non-free/o/opera-mobile/opera-mobile_11.5beta1-14~fremantle0_armel.deb
+Size: 7871858
+SHA256: dcd1bb88ef6edce6b2f8674f23eb908d6ceb50f368150f05d7500d188202ac89
+SHA1: 40b13d4c5ad72589b2d835e13a497af22be8fd4b
+MD5sum: b29727ec8b921cf4e4311cf4952c22ae
+Description: A first-class mobile Web experience
+ Opera Mobile 11.5 is a fast and standards compliant
+ web browser with support for tabs, Opera Turbo for
+ faster and more economical browsing, speed dial,
+ and many more features.
+Bugtracker: https://bugs.opera.com/wizard/
+Maemo-Icon-26:  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
+ WnF41gAAAABJRU5ErkJggg==
+Maemo-Display-Name: Opera Mobile
+
+Package: oscp
+Version: 0.9.7-26
+Architecture: armel
+Depends: libao0, libncurses5, libstdc++6, libgcc1, python-gtk2, python-dbus
+Recommends: freepats
+Installed-Size: 10164
+Maintainer: KotCzarny <kotcza@gmail.com>
+Priority: 0
+Section: utils
+Filename: pool/non-free/o/oscp/oscp_0.9.7-26_armel.deb
+Size: 4425836
+SHA256: f1003e7e1c54ca9b3cf7728e1913cd0c411fa63fa418fd4769e7e59bf9be3bfd
+SHA1: 86d45219a5fb76429d95f179ecee163a91386d3c
+MD5sum: d70605eefb4555dcf805b51c4190a62a
+Description: features:
+ - plays local files, playlists and internet streams (http:// and mms://)
+ - multiplatform, small, fast and easy to use
+ - almost no dependencies (needs only libao)
+ - remembers play position
+ - unzip/unrar support
+ - ncurses ui
+ - or: network interface for remote commands (remote gui)
+ - lirc (remote) support
+ - many more little bits that make your audio experience smooth
+ - formats:
+ libav-1.1: mp3, wav, ogg, flac, ape, mpg, mpeg, mpc, aac, mp2, wma, wmv, wv, asf, rm, flv, avi, mkv, etc
+ xmp-4.3.5: mod, med, xm, it, s3m, dbm, psm, umx, okt, digi, 669, mtm, mtp, ac1d, di, eu, kris, lax, liq, dtm, ptm, rtm, stm, amf, dmf, imf, amd, rad, hsc
+ wildmidi-0.4.0: mid, xmi
+ fc14-1.0.3: fc, fc13, fc14
+ gme-0.6.0: ay, gbs, gym, hes, kss, nsf, nsfe, sap, spc, vgm
+ asap-3.2.0: sap, cm3, cmc, cmr, cms, dmc, dlt, mpd, mpt, rmt, tm2, tm8, tmc, fc
+ sc68-2.2.1: sc68, sndh
+ sid2-2.1.1: sid, psid, info
+ mdx-20070206: mdx, pdx
+ uade2-2.13: MANY.
+ +------------
+ |
+ | if you like it, spread the word!
+ |
+ | please submit any feedback/bugs/feature requests via:
+ | irc: (KotCzarny) on #maemo or #osc on irc.freenode.org
+ | or: http://talk.maemo.org/showthread.php?t=94590
+ | or: https://garage.maemo.org/tracker/?group_id=2392
+ |
+ +------------
+Bugtracker: https://garage.maemo.org/tracker/?group_id=2392
+Maemo-Display-Name: oscp - flexible audio player for almost any format, local/remote gui included
+Maemo-Icon-26: 
+ iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGP
+ C/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3Cc
+ ulE8AAAABmJLR0QA/wD/AP+gvaeTAAAOE0lEQVRo3u1Za2wT55p+ZsYzY4+v
+ 8djOPRA7JJCQFEITLkkhbVdF6apVEYTCIh2oetT+2JX6Y3e1qwqtVlXPnq6q
+ U+2lalXpqIcDXUoT1B+wpJxeUii3tCgJjYMhkDipiVMS27Hj23jGnvH+gPHG
+ uRFo9/Kjr/Qpk9jzvc/z3r73/QL8Iv+3QvzcGxYVFSEej5NVVVWsxWLRAMDs
+ 7GzG6/WKZrNZ8fl8/38IGAwGBINBbN++XVtXV1dps9nqLRbLeo7jVut0Op6i
+ KB1BEJBlWRAEYSaZTI5HIpGhYDA4dP36de+3334rMAwDSZL+dwnU1tbC4/EQ
+ +/btK3U6nTvLysqeKy4u3uRwOIoKCgo0BoMBLMuCoigAgCzLkCQJ8Xgc4XA4
+ EwgEpicnJwfu3LnTPT4+fub48eO+jRs3ZgcGBv5nCWzcuBE9PT149dVXi2tq
+ av5izZo1B6uqqtaVlpZqzGYzKIqCKIqIx+MQBCFnWZqmodPpoBJTFAWxWAx+
+ vz8zOjp66/bt20dv3rz50ccff+zftm0brly58vMTePbZZ+H3++m2trad69at
+ e72hoaG5srKS0ul0iEQicLvd+O677+B2u3Hnzh1EIhFIkoRsNguGYWA2m1FW
+ Voa6ujo0NzejoaEBPM9DFEWMj4/Lbre7z+Px/PbixYtniouL06dOnfr5CBw4
+ cADhcNjU1NT0lxs3bvyb+vp6q8Viwd27d9Hd3Y1Tp05heHgYAGCz2VBYWAiL
+ xQKtVguCIJBKpTA7O4tAIIDp6WnIsgyXy4X29nY899xzqKioQDQaxfXr1yP9
+ /f3/1t/f/y8mkyl87Nixn07glVdeQSgUcjQ2Nv7T1q1bf1VTU0On02l0d3fj
+ yJEjGBkZQXl5ORoaGuByucDzPHQ6HTQaDQjiv7fPZDJIpVIIh8MYGxuD2+2G
+ 1+tFcXExDh48iOeffx56vR63b9+We3t7/6O/v//vbDbb3ffee29ZfNRyHx46
+ dAjhcJhvamr6XWtr68E1a9ZoJicn8dZbb+GDDz4AwzBob29HW1sbnE4nDAYD
+ SJKELMtIp9N5S5ZlEAQBjuNQUlKCtWvXory8HH6/H6dPn4bX60V1dTVcLhdp
+ NpsbFEUpvXXr1oXW1tZEX1/fwxPYt28ffD6fdsuWLb/Ztm3br10uF+nxePD6
+ 66/jypUr2Lx5M5555hmUlZWBIIg8sJlMZsmlfocgCBQUFKCqqgparRYXL15E
+ b28vqqqqUFNTQ+j1+vWSJJn6+/t7tm7dmna73Ssn0NHRgc7OTrz44osvb968
+ +e9ramrYGzdu4PDhwxgbG8PTTz+NDRs2QK3hDwK9HBEAKCwshN1ux9DQEC5f
+ vozq6mpUV1cTDMPUybIcev/996++8MILuHnz5soItLe3o66urrGxsfHfGxoa
+ HIFAAG+88QZu376NtrY2uFwuKIqSA/9TlyzLMBqN4HkeHo8H165dQ2NjIyoq
+ Kuh0Ol3vcDiulJWVTVy6dOnBBPbv34+BgQFtS0vLbxobG3fQNI13330XFy5c
+ wJYtW1BZWZmLcVmWH9ryyy2O42A0GjE4OIipqSk0NzfDarWaotGo5euvvz7T
+ 2tq6IJTyCOzevRsulws2m+3PGhoaDldUVLA9PT348MMPUVlZiTVr1kBRlJ8V
+ 9Pyw4jgOAHD16lXwPI/6+nooirJKFMXvKyoqbtpsNng8nhxmzVwCLMuiu7ub
+ 3bNnzyGe501TU1M4ceIEGIbBqlWrkE6nIUlSXnlUJZvNAsCin61UstksCIJA
+ cXEx/H4/Pv30U2zatAk2m01fVFT0q+7u7j9VVFQIc9/JI2A0GtHU1FRrt9u3
+ y7KMS5cuYXh4GNXV1SBJEslkckmQBoMBgiAgnU6DJMlHJqDuX1ZWhsHBQfT0
+ 9GDnzp3geb61rq7uMYqiehclcODAAezYsQODg4NPGo3G4nA4jJ6eHiiKAoZh
+ kEqlchZaTPGuXbtgt9vx5Zdf4tatWxBF8ZGIqDpomgZFUTh//jwaGhpgNBrt
+ PM8/09HR0RuJRHD8+PGFHnj77bfZvXv3bmdZFl6vF6Ojo8hmswgEAqBpOgeI
+ IIictVSler0eTz31FJqamtDX14fPP/8cQ0NDSCaTIElywTvzZe7n2WwWwWAQ
+ sizD5/PB6/Wivr4eZrO55bXXXuMqKiqSCzyg0+lQV1dXyHFcLUEQ8Hq9SCQS
+ IEkSgUAgd/AsZtVsNotMJpMLw7a2NjQ3N2NgYABnz55FX18fotEoCIJ4YI6o
+ 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
+ AAAASUVORK5CYII=
+
+Package: powerphone
+Version: 1.1.0
+Architecture: armel
+Maintainer: Alexander Belinski <ml@ambalco.com>
+Installed-Size: 243
+Depends: libc6 (>= 2.5.0-1), libgcc1 (>= 1:4.2.1), libqt4-core (>= 4.7.0~git20100909), libqt4-dbus (>= 4.7.0~git20100909), libqt4-gui (>= 4.7.0~git20100909), libqt4-network (>= 4.7.0~git20100909), libqt4-xml (>= 4.7.0~git20100909), libqtm-sensors, libqtm-systeminfo, libstdc++6 (>= 4.2.1)
+Homepage: <http://ambalco.com/>
+Priority: 0
+Section: utils
+Filename: pool/non-free/p/powerphone/powerphone_1.1.0_armel.deb
+Size: 138274
+SHA256: fc33a2eb83f2d6b1e0b06a6d3b1e312b05639974c26c06eb1df6db5e6825496c
+SHA1: 75848031bbd11d502c242538e5cf63e4249e8855
+MD5sum: e7fba9ce868c827a74fe9c29bdf25373
+Description: strength competition game
+Bugtracker: mailto:ml@ambalco.com
+Maemo-Display-Name: Ambalco PowerPhone
+Maemo-Icon-26: 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
+
+Package: psswitcher
+Version: 0.2-3
+Architecture: armel
+Depends: libatk1.0-0 (>= 1.24.0), libc6 (>= 2.5.0-1), libcairo2, libdbus-1-3 (>= 1.1.4), libdbus-glib-1-2 (>= 0.76), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.9), libglib2.0-0 (>= 2.20.0), libgtk2.0-0 (>= 2:2.12.9-0osso1), libhal1 (>= 0.5.10), libhildon1 (>= 2.2.18), libosso1 (>= 2.23), libpango1.0-0, libx11-6, libxtst6
+Installed-Size: 152
+Maintainer: Jay Pangmi <jaeezzy@gmail.com>
+Priority: 0
+Section: utils
+Filename: pool/non-free/p/psswitcher/psswitcher_0.2-3_armel.deb
+Size: 25168
+SHA256: d99f1aca712f509170f35424d745fe77acf1921b018c05bfc24569ba7fbf82f3
+SHA1: cee8e16e634da481f855db21ff6a3a81b6e1d560
+MD5sum: b59667f14b9b0f1b8b9c915c1ca64d2d
+Description: Eases to switch on/off speakers while on the phone and answer/end phone calls
+ Creates shortcuts to easily switch the speakers on and off or answer or end calls while
+ you are either making phone call or  speaking on the phone. This has no effect when the
+ headphone or bluetooth headset is plugged in. Currently, answering and ending calls only
+ work for standard calls and not on Skype and GTalk. Shortcuts available are:
+ 1) Sliding out/in keyboard turns on/off speakers respectively.
+ 2) Half pressing and releasing camera button (It turns speakers on if they are off and
+    vice-versa).
+ 3) Uses proximity sensor to turn on/off speakers while on the phone.
+ 4) Long (1 sec) half pressing camera button answers or ends the call.
+ 5) Open dashboard when the speakers are turned on.
+ 6) Half (1/2 sec) press camkey to toggle proximity when in use.
+ 7) Half pressing camkey while answering call disables proximity
+Bugtracker: https://bugs.maemo.org/enter_bug.cgi?product=psswitcher
+Maemo-Display-Name: Phone Speakers Switcher
+Maemo-Icon-26: 
+ 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
+ YqoHfqFwUgAAAABJRU5ErkJggg==
+ ====
+
+Package: sliderule
+Version: 1.0.4-1
+Architecture: armel
+Maintainer: Marat Fayzullin <marat@komkon.org>
+Installed-Size: 176
+Depends: libatk1.0-0 (>= 1.24.0), libc6 (>= 2.5.0-1), libcairo2, libdbus-1-3 (>= 1.1.4), libdbus-glib-1-2 (>= 0.76), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.2.1), libgconf2-6 (>= 2.13.5), libglib2.0-0 (>= 2.20.0), libgtk2.0-0 (>= 2:2.12.9-0osso1), libhildon1, libhildonfm2 (>= 1:2.28+0m5), libosso-gnomevfs2-0, libosso1 (>= 2.23), libpango1.0-0, libpulse0 (>= 0.9.15~test5), libstdc++6 (>= 4.2.1), zlib1g (>= 1:1.2.1)
+Priority: 0
+Section: utils
+Filename: pool/non-free/s/sliderule/sliderule_1.0.4-1_armel.deb
+Size: 92270
+SHA256: 531d2b417a629876b93b9b9d9adee8845f6f644fe93ee6230a0b1bc59e0886f1
+SHA1: 5adc6796dbdacffd80d6d48ab6c0307c11503b96
+MD5sum: e1ceeaa71d397471813a476a85426222
+Description: Advanced graphing calculator
+ SlideRule is an engineering calculator that will plot functions,
+ take derivatives and do a few other useful things. Think of it
+ as mini version of Mapple.
+Bugtracker: http://groups.google.com/group/emul8/
+Maemo-Display-Name: SlideRule
+Maemo-Icon-26: 
+ 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
+ YII=
+
+Package: speccy
+Version: 1.7.0-3
+Architecture: armel
+Maintainer: Marat Fayzullin <marat@komkon.org>
+Installed-Size: 684
+Depends: libatk1.0-0 (>= 1.24.0), libc6 (>= 2.5.0-1), libcairo2, libdbus-1-3 (>= 1.1.4), libdbus-glib-1-2 (>= 0.76), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.9), libgconf2-6 (>= 2.13.5), libglib2.0-0 (>= 2.20.0), libgtk2.0-0 (>= 2:2.12.9-0osso1), libhildon1 (>= 2.2.10), libhildonfm2 (>= 1:2.28+0m5), libhildonmime0 (>= 2.1.5), libosso-gnomevfs2-0, libosso1 (>= 2.23), libpango1.0-0, libpulse0 (>= 0.9.15~test5), zlib1g (>= 1:1.2.1)
+Priority: 0
+Section: utils
+Filename: pool/non-free/s/speccy/speccy_1.7.0-3_armel.deb
+Size: 368036
+SHA256: 7307bb22b328dc765b25f4921df9d66c648ac4f0909aedfa9a6c05c3c6038d72
+SHA1: 7f562242ab437126d95ca7ef98f4b512e4771e81
+MD5sum: 5b3743e9ef788582f8fea910a9003fd8
+Description: Sinclair ZX Spectrum emulator
+ Speccy will run software written for Sinclair ZX Spectrum 8bit home
+ computer and its clones. Speccy supports 16kB, 48kB, and 128kB
+ versions of Spectrum, Timex Sinclair machines, Russian Pentagon and
+ Scorpion Spectrum clones, and the Czech Didaktik clone.
+Bugtracker: http://groups.google.com/group/emul8/
+Maemo-Display-Name: Speccy
+Maemo-Icon-26: 
+ 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
+ CVhtrAlYbfwX8at2fvtzzcAAAAAASUVORK5CYII=
+
+Package: vgb
+Version: 3.5.6-2
+Architecture: armel
+Maintainer: Marat Fayzullin <marat@komkon.org>
+Installed-Size: 241
+Depends: libatk1.0-0 (>= 1.24.0), libc6 (>= 2.5.0-1), libcairo2, libdbus-1-3 (>= 1.1.4), libdbus-glib-1-2 (>= 0.76), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.9), libgconf2-6 (>= 2.13.5), libglib2.0-0 (>= 2.20.0), libgtk2.0-0 (>= 2:2.12.9-0osso1), libhildon1, libhildonfm2 (>= 1:2.28+0m5), libhildonmime0 (>= 2.1.3), libosso-gnomevfs2-0, libosso1 (>= 2.23), libpango1.0-0, libpulse0 (>= 0.9.15~test5), zlib1g (>= 1:1.2.1)
+Priority: 0
+Section: utils
+Filename: pool/non-free/v/vgb/vgb_3.5.6-2_armel.deb
+Size: 109446
+SHA256: 952b7b9154e44d05d7eddaede79b9db40a58992e8af400962a5fe053d046e4aa
+SHA1: 7b06c3431c25cc8933392d3a99fcf41cad4d1e2c
+MD5sum: 6fe87ca606c6e39f416819ceef0ff1a5
+Description: Nintendo GameBoy emulator
+ VGB will run software written for Nintendo GameBoy and GameBoy
+ Color handheld videogame consoles. It also emulates multiplayer
+ mode, Super GameBoy, Pocket Printer, and other addons.
+Bugtracker: http://groups.google.com/group/emul8/
+Maemo-Display-Name: VGB
+Maemo-Icon-26: 
+ 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
+
+Package: vgba
+Version: 3.6.8-2
+Architecture: armel
+Maintainer: Marat Fayzullin <marat@komkon.org>
+Installed-Size: 418
+Depends: libatk1.0-0 (>= 1.24.0), libc6 (>= 2.5.0-1), libcairo2, libdbus-1-3 (>= 1.1.4), libdbus-glib-1-2 (>= 0.76), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.9), libgconf2-6 (>= 2.13.5), libglib2.0-0 (>= 2.20.0), libgtk2.0-0 (>= 2:2.12.9-0osso1), libhildon1, libhildonfm2 (>= 1:2.28+0m5), libhildonmime0 (>= 2.1.3), libosso-gnomevfs2-0, libosso1 (>= 2.23), libpango1.0-0, libpulse0 (>= 0.9.15~test5), zlib1g (>= 1:1.2.1)
+Priority: 0
+Section: utils
+Filename: pool/non-free/v/vgba/vgba_3.6.8-2_armel.deb
+Size: 141966
+SHA256: 6382ad5f70d7ad02814e3315a143932b05a78798dd0215481006d109449c3686
+SHA1: 003d1cef0b3b1a5b6df698e7d0476718770f5f6c
+MD5sum: b702ab5f081eaa1141e0c3dab0ac5f09
+Description: Nintendo GameBoy Advance emulator
+ VGBA will run software written for Nintendo GameBoy Advance handheld
+ console. Please, make sure you buy an actual cartridge for every game
+ you play with VGBA.
+Bugtracker: http://groups.google.com/group/emul8/
+Maemo-Display-Name: VGBA
+Maemo-Icon-26: 
+ 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
+ dYYtAAAAAElFTkSuQmCC
+
